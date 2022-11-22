@@ -24,7 +24,12 @@ app.get('/register', (req,res)=>{
 app.get('/home', (req,res)=>{
     let t = renderTemplate('home', {});
     res.send(t);
-})
+});
+app.get('/login', (req,res)=>{
+    let t = renderTemplate('login', {});
+    res.send(t);
+});
+
 
 app.listen(3000)
 

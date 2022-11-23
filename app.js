@@ -29,6 +29,10 @@ app.get('/login', (req,res)=>{
     let t = renderTemplate('login', {});
     res.send(t);
 });
+app.get('/booking', (req,res)=>{
+    let t = renderTemplate('booking',{});
+    res.send(t);
+});
 
 
 app.listen(3000)

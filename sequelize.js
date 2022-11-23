@@ -27,21 +27,21 @@ const passenger = sequelize.define('passenger',{                     //to create
     password:{
         type:DataTypes.STRING(50),
         allowNull: false,
-        unique:true
+       
 
 
     },
     mobile_number:{
-        type:DataTypes.STRING(50),
+        type:DataTypes.INTEGER,
         allowNull: false,
-        unique:true
+       
 
 
     },
     address:{
         type:DataTypes.STRING(50),
         allowNull: false,
-        unique:true
+      
 
 
     },

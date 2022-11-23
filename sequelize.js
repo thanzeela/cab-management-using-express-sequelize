@@ -62,11 +62,11 @@ const booking_schedule = sequelize.define('booking_schedule',{
     
     
     date_of_booking: {
-        type:DataTypes.INTEGER,
+        type:DataTypes.DATE,
         allowNull:false,
     },
     date_of_travel:{
-        type:DataTypes.INTEGER,
+        type:DataTypes.DATE,
         allowNull:false,
     },
     number_of_passengers:{
